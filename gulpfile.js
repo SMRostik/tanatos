@@ -32,10 +32,12 @@ gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		// 'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
 		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Берем Magnific Popup
-		'app/libs/slick/slick.js'
+		// 'app/libs/slick/slick.js'
+		'app/libs/jquery/dist/jquery.js',
+		'app/libs/owl.carousel/dist/owl.carousel.js'
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
-		.pipe(uglify()) // Сжимаем JS файл
+		//.pipe(uglify()) // Сжимаем JS файл
 		.pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
 });
 

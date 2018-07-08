@@ -7,3 +7,4 @@
 /**/package-lock.json
 /**/Thumbs.db
 /**/.DS_Store
+/app/js/libs.min.js

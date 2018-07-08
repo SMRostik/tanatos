@@ -5,7 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
 	<!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
 	<link rel="stylesheet" type="text/css" href="css/libs.min.css"/>
 	<link rel="stylesheet" href="css/main.css">
@@ -13,26 +13,43 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="header-img-overlay header-img-overlay_pb">
+			<div class="header__img-overlay">
 				<div class="top-panel container">
-					<div class="top-panel-body">
+					<div class="top-panel__body">
 						<a href="#" class="logo">
 							<img src="img/logo.png" alt="">
 						</a>
 						<div class="top-menu">
 							<a href="#">MENU</a>
+							<div class="top-menu__block">
+								<nav>
+									<div class="top-menu__item"><a href="" class="top-menu__href">Home</a></div>
+									<div class="top-menu__item"><a href="" class="top-menu__href">About us</a></div>
+									<div class="top-menu__item"><a href="" class="top-menu__href">Services</a></div>
+									<div class="top-menu__item"><a href="" class="top-menu__href">Out Works</a></div>
+									<div class="top-menu__item"><a href="" class="top-menu__href">Contact</a></div>
+								</nav>
+								<div class="top-menu__hr"></div>
+								<div class="contact__social">
+									<a href="" class="contact__social-item contact__social-item_fb"></a>
+									<a href="" class="contact__social-item contact__social-item_tw"></a>
+									<a href="" class="contact__social-item contact__social-item_gp"></a>
+									<a href="" class="contact__social-item contact__social-item_bl"></a>
+									<a href="" class="contact__social-item contact__social-item_be"></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="header-body container">
-					<div class="header-body-text">
-						<p class="header-title">WE DESIGN <span>THINGS</span></p>
-						<p class="header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					<div class="header-body__text">
+						<p class="header-body__title">WE DESIGN <span>THINGS</span></p>
+						<p class="header-body__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 					</div>
-					<div class="header-buttons">
-						<a class="header-button" href="#">HIRE US</a>
-						<a class="header-button" href="#">OUR WORKS</a>
+					<div class="header-body__buttons">
+						<a class="header-body__button" href="#">HIRE US</a>
+						<a class="header-body__button" href="#">OUR WORKS</a>
 					</div>
 				</div>
 				<a href="#" id="slider-button" class="slider-button"></a>
@@ -44,32 +61,32 @@
 				<div class="our-servises__item-servis">
 					<div class="item-servis__img item-servis__img_print"></div>
 					<div class="item-servis__title">Print design</div>
-					<div class="item-servis_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur velit, necessitatibus cumque neque accusamus sint similique cupiditate explicabo corporis nulla repudiandae animi, quia voluptas laboriosam et quibusdam illo voluptate accusantium?</div>
+					<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur velit, necessitatibus cumque neque accusamus sint similique cupiditate explicabo corporis nulla repudiandae animi, quia voluptas laboriosam et quibusdam illo voluptate accusantium?</div>
 				</div>
 				<div class="our-servises__item-servis">
 					<div class="item-servis__img item-servis__img_web"></div>
 					<div class="item-servis__title">Web design</div>
-					<div class="item-servis_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate excepturi, quaerat itaque quisquam impedit earum iusto blanditiis pariatur veniam eligendi obcaecati, ipsam. Harum, placeat, inventore. Incidunt, explicabo reprehenderit voluptatum. A.</div>
+					<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate excepturi, quaerat itaque quisquam impedit earum iusto blanditiis pariatur veniam eligendi obcaecati, ipsam. Harum, placeat, inventore. Incidunt, explicabo reprehenderit voluptatum. A.</div>
 				</div>
 				<div class="our-servises__item-servis">
 					<div class="item-servis__img item-servis__img_app"></div>
 					<div class="item-servis__title">App design</div>
-					<div class="item-servis_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo voluptatem maxime iure saepe placeat pariatur vitae, culpa qui deleniti amet rerum minima obcaecati veritatis? Similique nulla laboriosam quos quia!</div>
+					<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo voluptatem maxime iure saepe placeat pariatur vitae, culpa qui deleniti amet rerum minima obcaecati veritatis? Similique nulla laboriosam quos quia!</div>
 				</div>
 				<div class="our-servises__item-servis">
 					<div class="item-servis__img item-servis__img_logo"></div>
 					<div class="item-servis__title">Logo design</div>
-					<div class="item-servis_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veritatis hic modi corrupti aliquam mollitia necessitatibus ipsam odit possimus illo provident ea amet, aperiam quisquam esse commodi. Dignissimos, nostrum, assumenda.</div>
+					<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veritatis hic modi corrupti aliquam mollitia necessitatibus ipsam odit possimus illo provident ea amet, aperiam quisquam esse commodi. Dignissimos, nostrum, assumenda.</div>
 				</div>
 			</div>
 		</div>
 		<form class="news-letter" action="#" >
-			<div class="news-letter_img-overlay">
+			<div class="news-letter__img-overlay">
 				<div class="container">
 					<div class="row">
-						<input class="news-letter_text" type="text" placeholder="Enter Your email adress for newsletter">
+						<input class="news-letter__text" type="text" placeholder="Enter Your email adress for newsletter">
 						<div class="br"></div>
-						<input class="news-letter_submit" type="submit" value="Subscribe">
+						<input class="news-letter__submit" type="submit" value="Subscribe">
 					</div>
 				</div>
 				
@@ -84,7 +101,7 @@
 				<div class="ow-body__item">
 					<img src="img/ow1.jpg" alt="">
 					<div class="ow-body__item-on">
-						<div class="item-on-wrap">
+						<div class="item-on__wrap">
 							<div class="item-on__title"><span>ABAZOO WEBSITE</span></div>
 							<div class="item-on__description">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</div>
 							<a href="#" class="item-on__button">SHOW PROJECT</a>
@@ -94,7 +111,7 @@
 				<div class="ow-body__item">
 					<img src="img/ow1.jpg" alt="">
 					<div class="ow-body__item-on">
-						<div class="item-on-wrap">
+						<div class="item-on__wrap">
 							<div class="item-on__title"><span>ABAZOO WEBSITE</span></div>
 							<div class="item-on__description">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</div>
 							<a href="#" class="item-on__button">SHOW PROJECT</a>
@@ -104,7 +121,7 @@
 				<div class="ow-body__item">
 					<img src="img/ow1.jpg" alt="">
 					<div class="ow-body__item-on">
-						<div class="item-on-wrap">
+						<div class="item-on__wrap">
 							<div class="item-on__title"><span>ABAZOO WEBSITE</span></div>
 							<div class="item-on__description">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</div>
 							<a href="#" class="item-on__button">SHOW PROJECT</a>
@@ -114,7 +131,7 @@
 				<div class="ow-body__item">
 					<img src="img/ow1.jpg" alt="">
 					<div class="ow-body__item-on">
-						<div class="item-on-wrap">
+						<div class="item-on__wrap">
 							<div class="item-on__title"><span>ABAZOO WEBSITE</span></div>
 							<div class="item-on__description">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</div>
 							<a href="#" class="item-on__button">SHOW PROJECT</a>
@@ -126,7 +143,7 @@
 		</div>
 		<div class="reviews">
 			<div class="reviews_img-overlay">
-				<div class="slider container">
+				<div class="slider container owl-carousel owl-theme">
 					<div class="slider-item slider__slider-item">
 						<img class="slider-item__img" src="img/slider-img.jpg" alt="">
 						<div class="slider-item__author-text">
@@ -153,7 +170,7 @@
 				<div class="block-name__title"><span><span class="block-name__title_other-color">Our</span> Team</span></div>
 				<div class="block-name__description"><span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span></div>
 			</div>
-			<div class="our-team__carousel carousel container">
+			<div class="our-team__carousel carousel container owl-carousel owl-theme">
 				<div class="carousel__item">
 					<div class="carousel__img-wrap">
 						<img class="carousel__img" src="img/our-team1.jpg" alt="">
@@ -251,21 +268,32 @@ perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque l
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.js"></script> -->
+	<script type="text/javascript" src="js/libs.min.js"></script>
 	<script>
-		$('.slider').slick({
-			infinite: true,
-			speed: 300,
-			slidesToShow: 1,
-			adaptiveHeight: true
-		});
-		$('.our-team__carousel').slick({
-			dots: true,
-			slidesToShow: 4,
-			slidesToScroll: 4
-		}); 
+		// $('.slider').slick({
+		// 	infinite: true,
+		// 	speed: 300,
+		// 	slidesToShow: 1,
+		// 	adaptiveHeight: true
+		// });
+		// $('.our-team__carousel').slick({
+		// 	dots: true,
+		// 	slidesToShow: 4,
+		// 	slidesToScroll: 4
+		// }); 
+		jQuery(document).ready(function($) {
+              $('.slider').owlCarousel({
+                items: 1,
+                loop: true,
+				dots:false,
+				nav:true
+              });
+              $('.carousel').owlCarousel({
+                items: 4,
+              });
+            });
 		$(function() {
 			$("#slider-button").click(function(){
 				var height_header = $(".header").height();
