@@ -1,0 +1,1 @@
+https://smrostik.github.io/tanatos/dist/
