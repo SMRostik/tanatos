@@ -215,10 +215,7 @@ html, body, .wrapper {
   bottom: 0;
   left: 0;
   z-index: 10;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -226,8 +223,7 @@ html, body, .wrapper {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  display: none; }
+          justify-content: center; }
   .hire-us__block {
     background: #fff;
     width: 765px;
@@ -1018,3 +1014,9 @@ input::placeholder, textarea::placeholder {
     margin-top: 30px; }
   .block-name__description {
     width: 300px; } }
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }

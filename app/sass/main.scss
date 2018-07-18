@@ -230,6 +230,7 @@ html, body, .wrapper {
 		}
 	}
 }
+
 .hire-us{
 	background: rgba(#3b434c, 0.80);
 	position: fixed;
@@ -238,10 +239,9 @@ html, body, .wrapper {
 	bottom: 0;
 	left: 0;
 	z-index: 10;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
-	display: none;
 	&__block{
 		background: #fff;
 		width: 765px;
@@ -1152,7 +1152,9 @@ input::placeholder, textarea::placeholder {
 		}
 	}
 }
-
+.flex{
+	display: flex;
+}
 // @media (min-width: 992px) and (max-height: 550px)
 // 	html, body, .wrapper
 // 		height: auto

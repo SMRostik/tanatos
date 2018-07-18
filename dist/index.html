@@ -340,11 +340,11 @@ perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque l
 				$(".top-menu__block").fadeOut(250);
 			});
 			$("#here-us_btn").click(function(){
-				$(".hire-us").fadeIn(500);
+				$(".hire-us").addClass("flex");
 			});
 			$(".hire-us__btn-close").click(function(e){
 				e.preventDefault();
-				$(".hire-us").fadeOut(250);
+				$(".hire-us").removeClass("flex");
 			});
 		});
 		$(function() {
