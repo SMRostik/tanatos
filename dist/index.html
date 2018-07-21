@@ -86,22 +86,30 @@
 		</header>
 		<div class="our-servises animate animate-active container">
 			<div class="our-servises__item-servis">
-				<div class="item-servis__img item-servis__img_print"></div>
+				<div class="item-servis__img-wrap">
+					<div class="item-servis__img_print"></div>
+				</div>
 				<div class="item-servis__title">Print design</div>
 				<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur velit, necessitatibus cumque neque accusamus sint similique cupiditate explicabo corporis nulla repudiandae animi, quia voluptas laboriosam et quibusdam illo voluptate accusantium?</div>
 			</div>
 			<div class="our-servises__item-servis">
-				<div class="item-servis__img item-servis__img_web"></div>
+				<div class="item-servis__img-wrap">
+					<div class="item-servis__img_web"></div>
+				</div>
 				<div class="item-servis__title">Web design</div>
 				<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate excepturi, quaerat itaque quisquam impedit earum iusto blanditiis pariatur veniam eligendi obcaecati, ipsam. Harum, placeat, inventore. Incidunt, explicabo reprehenderit voluptatum. A.</div>
 			</div>
 			<div class="our-servises__item-servis">
-				<div class="item-servis__img item-servis__img_app"></div>
+				<div class="item-servis__img-wrap">
+					<div class="item-servis__img_app"></div>
+				</div>
 				<div class="item-servis__title">App design</div>
 				<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo voluptatem maxime iure saepe placeat pariatur vitae, culpa qui deleniti amet rerum minima obcaecati veritatis? Similique nulla laboriosam quos quia!</div>
 			</div>
 			<div class="our-servises__item-servis">
-				<div class="item-servis__img item-servis__img_logo"></div>
+				<div class="item-servis__img-wrap">
+					<div class="item-servis__img_logo"></div>
+				</div>
 				<div class="item-servis__title">Logo design</div>
 				<div class="item-servis__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veritatis hic modi corrupti aliquam mollitia necessitatibus ipsam odit possimus illo provident ea amet, aperiam quisquam esse commodi. Dignissimos, nostrum, assumenda.</div>
 			</div>
@@ -293,7 +301,23 @@ perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque l
 		</div>
 	</div>
 	<link rel="stylesheet" type="text/css" href="css/libs.min.css"/>
-	<link rel="stylesheet" href="css/main.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<noscript id="deferred-styles">
+    	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
 	<!-- <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script src="js/bootstrap.js"></script> -->
 	<script type="text/javascript" src="js/libs.min.js"></script>
