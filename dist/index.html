@@ -301,23 +301,7 @@ perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque l
 		</div>
 	</div>
 	<link rel="stylesheet" type="text/css" href="css/libs.min.css"/>
-	<!-- <link rel="stylesheet" href="css/main.css"> -->
-	<noscript id="deferred-styles">
-    	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-    </noscript>
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
+	<link rel="stylesheet" href="css/main.css">
 	<!-- <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script src="js/bootstrap.js"></script> -->
 	<script type="text/javascript" src="js/libs.min.js"></script>
