@@ -78,7 +78,7 @@ html, body, .wrapper {
 	&__wrap{
 		margin: 0 auto;
 		padding-top: 130px;
-		overflow-y: scroll;
+		overflow-y: auto;
 		max-height: 100%;
 		position: relative;
 		&::-webkit-scrollbar{
@@ -89,7 +89,6 @@ html, body, .wrapper {
 		position: absolute;
 		top: 30px;
 		right: 15px;
-		display: block;
 		border: 0;
 		padding: 0;
 		height: 30px;
