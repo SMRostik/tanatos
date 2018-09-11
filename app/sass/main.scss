@@ -224,6 +224,10 @@ html, body, .wrapper {
 			border: 0;
 			cursor: pointer;
 		}
+		&:active{
+			background: $base_color;
+			box-shadow: rgba(0, 0, 0, 0.6) 0 0 20px 0px inset;
+		}
 		&:focus{
 			outline: none;
 		}
@@ -340,7 +344,14 @@ html, body, .wrapper {
 		font-weight: 600;
 		color: #fff;
 		font-size: 1em;
-		
+		cursor: pointer;
+		&:active{
+			background: $base_color;
+			box-shadow: rgba(0, 0, 0, 0.6) 0 0 20px 0px inset;
+		}
+		&:focus{
+			outline: none;
+		}
 	}
 }
 .slider-button {
@@ -499,6 +510,14 @@ html, body, .wrapper {
 		margin-left: 25px / 1170px * 100%;
 		background: $base_color;
 		font-weight: 600;
+		cursor: pointer;
+		&:active{
+			background: $base_color;
+			box-shadow: rgba(0, 0, 0, 0.6) 0 0 20px 0px inset;
+		}
+		&:focus{
+			outline: none;
+		}
 	}
 }
 
@@ -570,6 +589,13 @@ html, body, .wrapper {
 		border-radius: 10px;
 		margin: 0 auto;
 		margin-top: 85px;
+		cursor: pointer;
+		&:active{
+			box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 0px inset;
+		}
+		&:focus{
+			outline: none;
+		}
 	}
 }
 
@@ -629,11 +655,14 @@ html, body, .wrapper {
 		line-height: 50px;
 		text-align: center;
 		font-weight: 600;
+		&:active{
+			box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 0px inset;
+		}
+		&:focus{
+			outline: none;
+		}
 	}
-	&__button:hover {
-		text-decoration: none;
-		color: #f7600e;
-	}
+
 	&__wrap {
 		position: absolute;
 		top: 50%;
@@ -891,6 +920,14 @@ html, body, .wrapper {
 		height: 50px;
 		font-weight: 600;
 		color: #fff;
+		cursor: pointer;
+		&:active{
+			background: $base_color;
+			box-shadow: rgba(0, 0, 0, 0.6) 0 0 20px 0px inset;
+		}
+		&:focus{
+			outline: none;
+		}
 	}
 	&__social {
 		float: right;
